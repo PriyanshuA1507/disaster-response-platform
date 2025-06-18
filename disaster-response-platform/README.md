@@ -1,4 +1,4 @@
-# Disaster Response Coordination Platform
+Disaster Response Coordination Platform
 
 A backend-heavy MERN stack app for disaster response, featuring real-time updates, geospatial queries, social media aggregation, and image verification.
 
@@ -68,10 +68,5 @@ npx serve -s public # or use Vite/CRA/Parcel
 - Geospatial queries use a Postgres function (`nearby_resources`)
 - Mock authentication: use `x-user` header with values like `netrunnerX`, `reliefAdmin`, `citizen1`
 
-## Cursor Usage
-- Most backend API routes, caching logic, and geospatial queries were generated using Cursor
-- Socket.IO real-time logic and much of the frontend were also generated with Cursor
-
----
 
 Build fast, test thoroughly, and help coordinate disaster response! 🚀 
